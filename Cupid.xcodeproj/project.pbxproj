@@ -78,8 +78,10 @@
 		F025CF5217004D2E001F511B /* Cupid */ = {
 			isa = PBXGroup;
 			children = (
-				F025CF5B17004D2E001F511B /* CPDAppDelegate.h */,
-				F025CF5C17004D2E001F511B /* CPDAppDelegate.m */,
+				F025CF6C17005232001F511B /* models */,
+				F025CF6B17005222001F511B /* app */,
+				F025CF6A17005210001F511B /* controllers */,
+				F025CF69170051F1001F511B /* views */,
 				F025CF5317004D2E001F511B /* Supporting Files */,
 			);
 			path = Cupid;
@@ -97,6 +99,36 @@
 				F025CF6217004D2F001F511B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F025CF69170051F1001F511B /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		F025CF6A17005210001F511B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F025CF6B17005222001F511B /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F025CF5B17004D2E001F511B /* CPDAppDelegate.h */,
+				F025CF5C17004D2E001F511B /* CPDAppDelegate.m */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		F025CF6C17005232001F511B /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +313,7 @@
 				F025CF6817004D2F001F511B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
