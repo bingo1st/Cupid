@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F025CF4D17004D2E001F511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025CF4C17004D2E001F511B /* UIKit.framework */; };
+		F025CF4F17004D2E001F511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025CF4E17004D2E001F511B /* Foundation.framework */; };
+		F025CF5117004D2E001F511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F025CF5017004D2E001F511B /* CoreGraphics.framework */; };
+		F025CF5717004D2E001F511B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F025CF5517004D2E001F511B /* InfoPlist.strings */; };
+		F025CF5917004D2E001F511B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F025CF5817004D2E001F511B /* main.m */; };
+		F025CF5D17004D2E001F511B /* CPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F025CF5C17004D2E001F511B /* CPDAppDelegate.m */; };
+		F025CF5F17004D2E001F511B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF5E17004D2E001F511B /* Default.png */; };
+		F025CF6117004D2E001F511B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF6017004D2E001F511B /* Default@2x.png */; };
+		F025CF6317004D2F001F511B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF6217004D2F001F511B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F025CF4917004D2E001F511B /* Cupid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F025CF4C17004D2E001F511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F025CF4E17004D2E001F511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F025CF5017004D2E001F511B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F025CF5417004D2E001F511B /* Cupid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cupid-Info.plist"; sourceTree = "<group>"; };
+		F025CF5617004D2E001F511B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F025CF5817004D2E001F511B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F025CF5A17004D2E001F511B /* Cupid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cupid-Prefix.pch"; sourceTree = "<group>"; };
+		F025CF5B17004D2E001F511B /* CPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDAppDelegate.h; sourceTree = "<group>"; };
+		F025CF5C17004D2E001F511B /* CPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDAppDelegate.m; sourceTree = "<group>"; };
+		F025CF5E17004D2E001F511B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F025CF6017004D2E001F511B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F025CF6217004D2F001F511B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F025CF4617004D2E001F511B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025CF4D17004D2E001F511B /* UIKit.framework in Frameworks */,
+				F025CF4F17004D2E001F511B /* Foundation.framework in Frameworks */,
+				F025CF5117004D2E001F511B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F025CF4017004D2E001F511B = {
+			isa = PBXGroup;
+			children = (
+				F025CF5217004D2E001F511B /* Cupid */,
+				F025CF4B17004D2E001F511B /* Frameworks */,
+				F025CF4A17004D2E001F511B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F025CF4A17004D2E001F511B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F025CF4917004D2E001F511B /* Cupid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F025CF4B17004D2E001F511B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F025CF4C17004D2E001F511B /* UIKit.framework */,
+				F025CF4E17004D2E001F511B /* Foundation.framework */,
+				F025CF5017004D2E001F511B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F025CF5217004D2E001F511B /* Cupid */ = {
+			isa = PBXGroup;
+			children = (
+				F025CF5B17004D2E001F511B /* CPDAppDelegate.h */,
+				F025CF5C17004D2E001F511B /* CPDAppDelegate.m */,
+				F025CF5317004D2E001F511B /* Supporting Files */,
+			);
+			path = Cupid;
+			sourceTree = "<group>";
+		};
+		F025CF5317004D2E001F511B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F025CF5417004D2E001F511B /* Cupid-Info.plist */,
+				F025CF5517004D2E001F511B /* InfoPlist.strings */,
+				F025CF5817004D2E001F511B /* main.m */,
+				F025CF5A17004D2E001F511B /* Cupid-Prefix.pch */,
+				F025CF5E17004D2E001F511B /* Default.png */,
+				F025CF6017004D2E001F511B /* Default@2x.png */,
+				F025CF6217004D2F001F511B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F025CF4817004D2E001F511B /* Cupid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F025CF6617004D2F001F511B /* Build configuration list for PBXNativeTarget "Cupid" */;
+			buildPhases = (
+				F025CF4517004D2E001F511B /* Sources */,
+				F025CF4617004D2E001F511B /* Frameworks */,
+				F025CF4717004D2E001F511B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cupid;
+			productName = Cupid;
+			productReference = F025CF4917004D2E001F511B /* Cupid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F025CF4117004D2E001F511B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CPD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cupid angel team";
+			};
+			buildConfigurationList = F025CF4417004D2E001F511B /* Build configuration list for PBXProject "Cupid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F025CF4017004D2E001F511B;
+			productRefGroup = F025CF4A17004D2E001F511B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F025CF4817004D2E001F511B /* Cupid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F025CF4717004D2E001F511B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025CF5717004D2E001F511B /* InfoPlist.strings in Resources */,
+				F025CF5F17004D2E001F511B /* Default.png in Resources */,
+				F025CF6117004D2E001F511B /* Default@2x.png in Resources */,
+				F025CF6317004D2F001F511B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F025CF4517004D2E001F511B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025CF5917004D2E001F511B /* main.m in Sources */,
+				F025CF5D17004D2E001F511B /* CPDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F025CF5517004D2E001F511B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025CF5617004D2E001F511B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F025CF6417004D2F001F511B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F025CF6517004D2F001F511B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F025CF6717004D2F001F511B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cupid/Cupid-Prefix.pch";
+				INFOPLIST_FILE = "Cupid/Cupid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F025CF6817004D2F001F511B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cupid/Cupid-Prefix.pch";
+				INFOPLIST_FILE = "Cupid/Cupid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F025CF4417004D2E001F511B /* Build configuration list for PBXProject "Cupid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025CF6417004D2F001F511B /* Debug */,
+				F025CF6517004D2F001F511B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F025CF6617004D2F001F511B /* Build configuration list for PBXNativeTarget "Cupid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025CF6717004D2F001F511B /* Debug */,
+				F025CF6817004D2F001F511B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F025CF4117004D2E001F511B /* Project object */;
+}
