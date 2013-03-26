@@ -164,14 +164,11 @@
 		F025CF6A17005210001F511B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FAF0C8E81700A22A00DB8F9E /* CPDRootViewController.h */,
-				FAF0C8E91700A22A00DB8F9E /* CPDRootViewController.m */,
-				FAF0C8EB1700A2C600DB8F9E /* CPDHomeViewController.h */,
-				FAF0C8EC1700A2C600DB8F9E /* CPDHomeViewController.m */,
-				F0EFFA4017019A8B0084D3F4 /* CPDSeekPanelViewController.h */,
-				F0EFFA4117019A8B0084D3F4 /* CPDSeekPanelViewController.m */,
-				F0EFFA4617019C7B0084D3F4 /* CPDWaitPanelViewController.h */,
-				F0EFFA4717019C7B0084D3F4 /* CPDWaitPanelViewController.m */,
+				F0EFFA4E1701ABE20084D3F4 /* Setting */,
+				F0EFFA4D1701ABCF0084D3F4 /* Profile */,
+				F0EFFA4C1701ABB20084D3F4 /* Home */,
+				F0EFFA4B1701AB5C0084D3F4 /* Wait */,
+				F0EFFA4A1701AB3E0084D3F4 /* Seek */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -190,6 +187,49 @@
 			children = (
 			);
 			name = models;
+			sourceTree = "<group>";
+		};
+		F0EFFA4A1701AB3E0084D3F4 /* Seek */ = {
+			isa = PBXGroup;
+			children = (
+				F0EFFA4017019A8B0084D3F4 /* CPDSeekPanelViewController.h */,
+				F0EFFA4117019A8B0084D3F4 /* CPDSeekPanelViewController.m */,
+			);
+			name = Seek;
+			sourceTree = "<group>";
+		};
+		F0EFFA4B1701AB5C0084D3F4 /* Wait */ = {
+			isa = PBXGroup;
+			children = (
+				F0EFFA4617019C7B0084D3F4 /* CPDWaitPanelViewController.h */,
+				F0EFFA4717019C7B0084D3F4 /* CPDWaitPanelViewController.m */,
+			);
+			name = Wait;
+			sourceTree = "<group>";
+		};
+		F0EFFA4C1701ABB20084D3F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0C8E81700A22A00DB8F9E /* CPDRootViewController.h */,
+				FAF0C8E91700A22A00DB8F9E /* CPDRootViewController.m */,
+				FAF0C8EB1700A2C600DB8F9E /* CPDHomeViewController.h */,
+				FAF0C8EC1700A2C600DB8F9E /* CPDHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F0EFFA4D1701ABCF0084D3F4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F0EFFA4E1701ABE20084D3F4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 		FAF0C8C01700A0E600DB8F9E /* tools */ = {

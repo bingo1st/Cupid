@@ -39,15 +39,15 @@
 }
      
 -(IBAction)CPDShowSeekPanel:(id)sender{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"开启包养之旅！" message:@"haha!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes", nil];
-    [alert show];
+    //UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"开启包养之旅！" message:@"haha!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes", nil];
+    //[alert show];
     CPDSeekPanelViewController *seekPanelViewController = [[CPDSeekPanelViewController alloc] init];
     [[self navigationController] pushViewController:seekPanelViewController animated:YES];
 }
 
 -(IBAction)CPDShowWaitPanel:(id)sender{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"开启求包养之旅！" message:@"haha!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes", nil];
-    [alert show];
+    //UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"开启求包养之旅！" message:@"haha!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes", nil];
+    //[alert show];
     CPDWaitPanelViewController *waitPanelViewController = [[CPDWaitPanelViewController alloc] init];
     [[self navigationController] pushViewController:waitPanelViewController animated:YES];
 }
