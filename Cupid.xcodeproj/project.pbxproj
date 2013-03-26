@@ -16,6 +16,7 @@
 		F025CF5F17004D2E001F511B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF5E17004D2E001F511B /* Default.png */; };
 		F025CF6117004D2E001F511B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF6017004D2E001F511B /* Default@2x.png */; };
 		F025CF6317004D2F001F511B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F025CF6217004D2F001F511B /* Default-568h@2x.png */; };
+		F025CF7017006126001F511B /* CPDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F025CF6F17006126001F511B /* CPDRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		F025CF5E17004D2E001F511B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F025CF6017004D2E001F511B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F025CF6217004D2F001F511B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F025CF6E17006126001F511B /* CPDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDRootViewController.h; sourceTree = "<group>"; };
+		F025CF6F17006126001F511B /* CPDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		F025CF6A17005210001F511B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F025CF6E17006126001F511B /* CPDRootViewController.h */,
+				F025CF6F17006126001F511B /* CPDRootViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			files = (
 				F025CF5917004D2E001F511B /* main.m in Sources */,
 				F025CF5D17004D2E001F511B /* CPDAppDelegate.m in Sources */,
+				F025CF7017006126001F511B /* CPDRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
