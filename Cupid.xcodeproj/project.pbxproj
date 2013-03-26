@@ -32,7 +32,6 @@
 		FAF0C8E71700A14300DB8F9E /* UIImage+.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0C8E11700A14300DB8F9E /* UIImage+.m */; };
 		FAF0C8EA1700A22A00DB8F9E /* CPDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0C8E91700A22A00DB8F9E /* CPDRootViewController.m */; };
 		FAF0C8ED1700A2C600DB8F9E /* CPDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0C8EC1700A2C600DB8F9E /* CPDHomeViewController.m */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
