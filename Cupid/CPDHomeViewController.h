@@ -10,4 +10,7 @@
 
 @interface CPDHomeViewController : UIViewController
 
+-(IBAction)CPDShowSeekPanel:(id)sender;
+-(IBAction)CPDShowWaitPanel:(id)sender;
+
 @end
